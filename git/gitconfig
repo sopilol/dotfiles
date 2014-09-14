@@ -1,6 +1,6 @@
 [user]
 	name = Agnethe Søraa
-	email = agnethes0raa@gmail.com
+	email = me@agnethesoraa.com
 [help]
 	autocorrect = 1
 
@@ -10,3 +10,5 @@
   interactive = auto
   status = auto
   ui = auto
+[core]
+	excludesfile = /Users/agnethe/dotfiles/git/gitignore
