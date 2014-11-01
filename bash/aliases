@@ -20,7 +20,7 @@ alias vim='vim -p'
 
 #
 # sublime
-alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 if [ -f ~/dotfiles/mocco-dotfiles/bash_aliases ]; then
     . ~/dotfiles/mocco-dotfiles/bash_aliases
