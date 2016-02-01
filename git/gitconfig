@@ -1,8 +1,9 @@
 [user]
-	name = Agnethe Søraa
-	email = me@agnethesoraa.com
+  name = Agnethe Søraa
+  email = me@agnethesoraa.com
+
 [help]
-	autocorrect = 1
+  autocorrect = 1
 
 [color]
   branch = auto
@@ -10,5 +11,47 @@
   interactive = auto
   status = auto
   ui = auto
+
 [core]
-	excludesfile = /Users/agnethe/dotfiles/git/gitignore
+  excludesfile = /Users/agnethe/dotfiles/git/gitignore
+
+[alias]
+  cleanup = "!git branch --merged | grep  -v 'master' | xargs git branch -d"
+
+  c = commit
+  ca = commit -a
+  cm = commit -m
+
+  a = add .
+  ai = add -i
+  ap = add -p
+
+  o = checkout
+  b = branch
+  f = fetch
+  m = merge
+  r = rebase
+
+  re = reset
+  reh = reset --hard
+
+  p = pull --rebase
+  pn = pull --no-rebase
+  po = pull --rebase origin
+
+  ps = push
+  psu = push -u
+  pso = push origin
+
+  st = status
+  v = show
+  d = diff
+  dc = diff --cached
+
+  sa = stash apply
+  sc = stash clear
+  sd = stash drop
+  sl = stash list
+  sp = stash pop
+  ss = stash save
+  sw = stash show 
