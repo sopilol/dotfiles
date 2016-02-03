@@ -42,6 +42,7 @@
   ps = push
   psu = push -u
   pso = push origin
+  pom = push origin master
 
   st = status
   v = show
