@@ -1,8 +1,8 @@
 # dotfiles
-dotfiles for [@relekang](https://github.com/relekang)
+dotfiles for [@agnethesoraa](https://github.com/agnethesoraa)
 
 ```shell
-git clone git@github.com:relekang/dotfiles.git
+git clone git@github.com:agnethesoraa/dotfiles.git
 cd dotfiles
 sh setup.sh
 ```
