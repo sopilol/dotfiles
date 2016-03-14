@@ -1,6 +1,6 @@
 [user]
-  name = Agnethe Søraa
-  email = me@agnethesoraa.com
+  name = Caroline Olsen
+  email = caroline.z.olsen@teliasonera.com
 
 [help]
   autocorrect = 1
@@ -13,7 +13,7 @@
   ui = auto
 
 [core]
-  excludesfile = /Users/agnethe/dotfiles/git/gitignore
+  excludesfile = /Users/caol/dotfiles/git/gitignore
 
 [alias]
   cleanup = "!git branch --merged | grep  -v 'master' | xargs git branch -d"
